@@ -8,11 +8,3 @@ services:
       - 27017:27017
     
 
-volumes:
-  myvolume:
-    driver: local
-
-networks:
-  default:
-    external:
-      name: mynetwork
